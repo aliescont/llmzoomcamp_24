@@ -12,6 +12,7 @@ curl localhost:9200
 
 What's the `version.build_hash` value?
 
+42f05b9372a9a4a470db3b52817899b99a76ee73
 
 ## Getting the data
 
@@ -53,7 +54,7 @@ pip install elasticsearch
 Which function do you use for adding your data to elastic?
 
 * `insert`
-* `index`
+* `index` **
 * `put`
 * `add`
 
@@ -68,8 +69,8 @@ Use only `question` and `text` fields and give `question` a boost of 4, and use 
 What's the score for the top ranking result?
 
 * 94.05
-* 84.05
-* 74.05
+* 84.05 **
+* 74.05 
 * 64.05
 
 Look at the `_score` field.
@@ -81,7 +82,7 @@ Now let's only limit the questions to `machine-learning-zoomcamp`.
 Return 3 results. What's the 3rd question returned by the search engine?
 
 * How do I debug a docker container?
-* How do I copy files from a different folder into docker container’s working directory?
+* How do I copy files from a different folder into docker container’s working directory? **
 * How do Lambda container images work?
 * How can I annotate a graph?
 
@@ -115,7 +116,7 @@ CONTEXT:
 What's the length of the resulting prompt? (use the `len` function)
 
 * 962
-* 1462
+* 1462 **
 * 1962
 * 2462
 
@@ -140,7 +141,7 @@ Use the `encode` function. How many tokens does our prompt have?
 
 * 122
 * 222
-* 322
+* 322 **
 * 422
 
 Note: to decode back a token into a word, you can use the `decode_single_token_bytes` function:
