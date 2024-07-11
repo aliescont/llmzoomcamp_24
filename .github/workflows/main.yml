@@ -1,9 +1,7 @@
 name: PR and Merge
 
 on:
-  push:
-    branches:
-      - gh-actions
+  workflow_dispatch:
 
 jobs:
   pr-and-auto-merge:
