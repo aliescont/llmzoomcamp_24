@@ -18,7 +18,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: feature-branch
+          branch: gh-actions
           title: 'Automated PR'
           body: 'This PR adds new updates'
           labels: 'automerge'
