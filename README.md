@@ -1,4 +1,4 @@
-# LLM Zoomcamp 
+# LLM Zoomcamp 2024
 <p align="center">
   <img src="images/llm-zoomcamp.jpg"  />
 </p>
